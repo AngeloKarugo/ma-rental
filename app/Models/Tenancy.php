@@ -19,7 +19,7 @@ class Tenancy extends Model
      */
     public function tenantDetails(): BelongsTo
     {
-        return $this->belongsTo(TenantDetails::class);
+        return $this->belongsTo(TenantDetail::class);
     }
 
     /**
